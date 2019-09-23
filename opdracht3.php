@@ -6,8 +6,9 @@
  * Time: 9:08 AM
  */
 
-$boodschappen = ["aardappelen","aardbeien","3pakken melk","yoghurt"];
+$boodschappen = ["aardappelen","aardbeien","3 pakken melk","yoghurt"];
 
 foreach($boodschappen as $boodschap) {
-    echo "<li>".$boodschap."</li>";
+    echo "<img src='boodschap/$boodschap.jpg'> <br>";
+
 }
